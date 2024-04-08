@@ -66,8 +66,9 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
   font-family: 'Pavelt';
-  src: url('fonts/Pavelt.ttf') format('truetype');
+  src: url('../fonts/Pavelt.ttf') format('truetype');
 
+/*	src: url('fonts/Pavelt.ttf') format('truetype');*/
 /*  font-family: Pavelt, Arial-Rounded;*/
 }
 
@@ -78,6 +79,11 @@ li a {
 	text-transform: uppercase;
 
 }*/
+
+@font-face {
+    font-family: 'Pavelt';
+    src: url('../fonts/Pavelt.ttf') format('truetype');
+}
 
 ul:hover{
 
